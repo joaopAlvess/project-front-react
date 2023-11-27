@@ -1,11 +1,13 @@
 import React from 'react'
+import styles from '../styles/style.module.css';
 
 const Rodape = () => {
   return (
-    <div style={{width: '100%'}} className='bg-secondary text-white text-center position-fixed bottom-0'>
+    <div className={styles.footer}>
       <p>Rodapé</p>
     </div>
   )
 }
 
 export default Rodape
+

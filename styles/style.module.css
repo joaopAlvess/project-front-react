@@ -1,0 +1,19 @@
+.corNav {
+    background-color: yellow;
+}
+
+.footer {
+    position: fixed;
+    background-color: yellow;
+    text-align: center;
+    width: 100vw;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
